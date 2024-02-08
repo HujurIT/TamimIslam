@@ -19,7 +19,8 @@ nav{
     padding: 1.4% 10%;
     text-align: center;
 }
-nav p{
+nav p a{
+    text-decoration: none;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -44,4 +45,31 @@ nav ul li a:hover{
     background-image: linear-gradient(to top,red,orange);
     padding: 5px 20px;
     border: 1px solid;
+}
+.deteles{
+    margin: 10px 10%;
+    padding: 5px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.671);
+    outline: 1px solid rgb(255, 18, 58);
+}
+.deteles h2{
+    text-align: center;
+    text-shadow: 2px 2px 6px ;
+    letter-spacing: 1.2px;
+    word-spacing: 1.2px;
+    
+
+}
+.deteles p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(216, 158, 158);
+}
+.music{
+    margin: 5%;
+    text-align: center;
+}
+.music audio{
+    margin-top:5px;
 }

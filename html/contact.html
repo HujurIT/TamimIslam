@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/contact.css">
-    <title>Home page</title>
+    <title>Contact page</title>
 </head>
 <body>
     <div class="fullpage">
         <div class="header">
             <nav>
-                <p>TamimIslam</p>
+                <p><a href="/index.html">TamimIslam</a></p>
                 <ul>
                     <li><a href="/index.html">home</a></li>
                     <li><a href="about.html">about</a></li>
@@ -19,6 +19,25 @@
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="contact">
+            <h2>Please enter your question</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quibusdam a, nobis corrupti earum quo laborum, enim explicabo natus animi rem deleniti eaque ratione sapiente saepe fugit eum voluptatum optio.</p>
+        </div>
+        <div class="contact-form">
+            <form action="" class="formall">
+                <label for="fullname">Fullname</label>
+                <input type="text" class="fullname" maxlength="30" minlength="5" required>
+                 <br><br>
+                <label for="email">Email----</label>
+                <input type="email" class="email" required>
+                <br><br>
+                <label for="massage">Massage-</label><br>
+                <textarea class="massage" id="textarea" cols="30" rows="10" required></textarea>
+                <br><br>
+                <input type="reset" value="reset" id="reset">
+                <input type="submit" name="submit" id="submit">
+            </form>
         </div>
     </div>
 </body>

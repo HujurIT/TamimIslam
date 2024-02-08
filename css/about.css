@@ -19,13 +19,15 @@ nav{
     padding: 1.4% 10%;
     text-align: center;
 }
-nav p{
+nav p a{
+    text-decoration: none;
     text-align: center;
     color: white;
     font-size: 30px;
     cursor: pointer;
     font-weight: 800;
 }
+
 nav ul li{
     list-style: none;
     display: inline-block;
