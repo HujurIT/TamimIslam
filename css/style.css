@@ -38,6 +38,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    transition: .5s;
 
 }
 nav ul li a:hover{
@@ -78,7 +79,7 @@ button a{
 
 }
 button a:hover{
-    color:white;
+    color:white
 }
 button:hover{
     background-image:linear-gradient(to top,red,orange) ;
